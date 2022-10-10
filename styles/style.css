@@ -1,0 +1,39 @@
+/*Select all elements*/
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border size;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+header {
+    display: inline-flex;
+    justify-content:space-between;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(90, 216, 149);
+}
+.menu {
+    /* margin: auto 0; */
+    align-items: flex-end;
+    margin: 1px;
+}
+.menu-list{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding-right: 50px;
+}
+img {
+        width:  200px;
+        height: 200px;
+        object-fit: cover;
+    }
+header {
+    background-color: rgb(162, 138, 162);
+}
